@@ -1,3 +1,5 @@
+"use client";
+
 import { Product } from "@/types";
 import CurrencyTag from "./ui/CurrencyTag";
 import Button from "./ui/Button";
