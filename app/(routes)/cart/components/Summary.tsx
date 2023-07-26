@@ -47,7 +47,9 @@ const Summary = () => {
           <CurrencyTag value={totalPrice} />
         </div>
       </div>
-      <Button className="w-full mt-6">Checkout</Button>
+      <Button className="w-full mt-6" onClick={onCheckout}>
+        Checkout
+      </Button>
     </div>
   );
 };
