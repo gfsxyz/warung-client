@@ -29,7 +29,7 @@ const CartPage = () => {
               {cart.items.length === 0 && (
                 <>
                   <p className="text-neutral-500">
-                    You haven't added any items to the cart yet.
+                    You haven&apos;t added any items to the cart yet.
                   </p>
                   <Link
                     href="/"
