@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Warung Client
 
-## Getting Started
+E-Warung(Client) is an E-commerce app build with <b>Typescript, Next, & Tailwind<b>
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Screenshot
+
+![Homepage](./shot.png)
+
+### Links
+
+- Repo URL: [Github](https://github.com/gfsxyz/warung-client)
+
+- Live Site URL: [Live on Vercel](https://warung-client.vercel.app/)
+
+### Built with
+
+- [Typescript](https://www.typescriptlang.org/) - JS but cooler
+- [Next JS](https://nextjs.org/) - JS Framework
+- [Tailwind](https://tailwindcss.com/) - styles
+
+## Author
+
+- Website - [gustifaizal.com](https://gustifaizal.com/)
+- Twitter - [@gfsxyz](https://twitter.com/gfsxyz)
+
+## ⚒ Usage
+
+### 👥 Clone the repo
+
+```shell
+$ git clone https://github.com/gfsxyz/warung-client.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔑 Setup Env File
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create an .env file on root file and insert:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```javascript
+NEXT_PUBLIC_API_URL=https://warung-admin.vercel.app/api/55d3bf72-b32d-432e-9082-a96e86341a40
+```
 
-## Learn More
+### 📦 Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+```shell
+$ npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✨ Start/Run the app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```shell
+$ npm run dev
+```
